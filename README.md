@@ -36,6 +36,16 @@ Template.tempName.rendered = function() {
     $('.datetimepicker').datetimepicker();
 }
 ```
-*Note*
+**Note**
 
-This package requires the **moment**, LINK HERE, package. However, the moment.js version included in that package is not compatible with bootstrap3-datetimepicker. Once the moment package is installed, go into 'packages/moment/lib/moment' in your meteor project and replace the 'test', 'tasks', 'min', and 'lang' folders with those you can find in the latest version of the plain moment.js library, LINK HERE.
+This package requires the [moment meteor package](https://atmosphere.meteor.com/package/moment). However, the first time I created this package, the [moment.js](http://momentjs.com/) version included in that [moment meteor package](https://atmosphere.meteor.com/package/moment) was not compatible with bootstrap3-datetimepicker. ~~So once the moment package is installed, go into 'packages/moment/lib/moment' in your meteor project and replace the 'test', 'tasks', 'min', and 'lang' folders with those you can find in the latest version of the plain [moment.js library](http://momentjs.com/).~~ All you need to do is install the latest version of [moment meteor package](https://atmosphere.meteor.com/package/moment).
+
+```
+mrt install moment
+```
+
+or update a pre-existing installation using
+
+```
+mrt update moment
+```
