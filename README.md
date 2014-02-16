@@ -1,4 +1,4 @@
-bootstrap3-datatimepicker
+bootstrap3-datetimepicker
 ======================
 
 Bootstrap 3 DateTime picker from Eonasdan, https://github.com/Eonasdan/bootstrap-datetimepicker, packaged for Meteor.js
