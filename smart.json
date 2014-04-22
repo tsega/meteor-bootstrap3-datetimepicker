@@ -4,5 +4,8 @@
   "homepage": "https://github.com/tsega/meteor-bootstrap3-datetimepicker",
   "author": "Tsegaselassie Tadesse",
   "version": "0.0.5",
-  "git": "https://github.com/tsega/meteor-bootstrap3-datetimepicker.git"
+  "git": "https://github.com/tsega/meteor-bootstrap3-datetimepicker.git",
+  "packages": {
+    "moment": {}
+  }
 }
