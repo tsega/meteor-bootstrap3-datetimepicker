@@ -36,4 +36,4 @@ Template.tempName.rendered = function() {
     $('.datetimepicker').datetimepicker();
 }
 ```
-**Note** This pacakge has the [moment meteor package](https://atmosphere.meteor.com/package/moment) as its depedency now. This was included by [[@apendua](https://github.com/apendua). **There is no need to install the moment package separately.**
+**Note** This pacakge has the [moment meteor package](https://atmosphere.meteor.com/package/moment) as its depedency now. This was included by [@apendua](https://github.com/apendua). **There is no need to install the moment package separately.**
