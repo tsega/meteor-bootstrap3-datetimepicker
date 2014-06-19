@@ -6,6 +6,6 @@
   "version": "0.1.0",
   "git": "https://github.com/tsega/meteor-bootstrap3-datetimepicker.git",
   "packages": {
-    "moment": {}
+    "moment": "2.6.0"
   }
 }
