@@ -3,7 +3,7 @@
   "description": "Bootstrap 3 DateTime picker from Eonasdan, https://github.com/Eonasdan/bootstrap-datetimepicker, packaged for Meteor.js",
   "homepage": "https://github.com/tsega/meteor-bootstrap3-datetimepicker",
   "author": "Tsegaselassie Tadesse <tsegaselassi@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "git": "https://github.com/tsega/meteor-bootstrap3-datetimepicker.git",
   "packages": {
     "moment": "2.6.0"
