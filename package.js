@@ -4,9 +4,11 @@ Package.describe({
 
 Package.on_use(function (api) {
     api.use('jquery', 'client');
-    api.use('moment', 'client');
 
-    // fonts
+    // Add Moment with languages directly
+    api.add_files('lib/js/moment-with-langs.min.js', 'client');
+
+    // Add Date Time Picker CSS and JS files
     api.add_files('lib/css/bootstrap3-datetimepicker.min.css', 'client');
     api.add_files('lib/js/bootstrap3-datetimepicker.min.js', 'client');
 });
