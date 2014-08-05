@@ -6,7 +6,7 @@ Package.on_use(function (api) {
     api.use('jquery', 'client');
 
     // Add Moment with languages directly
-    api.add_files('lib/js/moment-with-langs.min.js', 'client');
+    api.add_files('lib/js/moment-with-locales.min.js', 'client');
 
     // Add Date Time Picker CSS and JS files
     api.add_files('lib/css/bootstrap3-datetimepicker.min.css', 'client');

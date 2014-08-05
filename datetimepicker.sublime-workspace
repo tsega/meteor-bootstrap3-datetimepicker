@@ -439,7 +439,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1194,
+				"buffer_size": 1163,
 				"line_ending": "Unix"
 			}
 		},
@@ -447,7 +447,7 @@
 			"file": "package.js",
 			"settings":
 			{
-				"buffer_size": 420,
+				"buffer_size": 527,
 				"line_ending": "Unix"
 			}
 		}
@@ -985,15 +985,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1194,
+						"buffer_size": 1163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								334
+								1163,
+								1163
 							]
 						],
 						"settings":
@@ -1013,15 +1013,15 @@
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 420,
+						"buffer_size": 527,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								0,
+								0
 							]
 						],
 						"settings":
