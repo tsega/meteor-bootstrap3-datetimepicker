@@ -7,7 +7,7 @@ To install
 ----------
 
 ```sh
-$ mrt add bootstrap3-datetimepicker
+$ meteor add tsega:bootstrap3-datetimepicker
 ```
 
 To use
@@ -36,4 +36,4 @@ Template.tempName.rendered = function() {
     $('.datetimepicker').datetimepicker();
 }
 ```
-~~**Note** This pacakge has the [moment meteor package](https://atmosphere.meteor.com/package/moment) as its depedency now. This was included by [@apendua](https://github.com/apendua). **There is no need to install the moment package separately.**~~ Due to errors caused by the Meteor Moment package, I'm simply including Moment.js (with languages) to this package itself, temporarily.
+~~**Note** This package has the [moment meteor package](https://atmosphere.meteor.com/package/moment) as its depedency now. This was included by [@apendua](https://github.com/apendua). **There is no need to install the moment package separately.**~~ Due to errors caused by the Meteor Moment package, I'm simply including Moment.js (with languages) to this package itself, temporarily.
