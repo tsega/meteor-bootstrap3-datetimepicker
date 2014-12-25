@@ -8,7 +8,7 @@ Package.on_use(function (api, where) {
     api.versionsFrom('METEOR@0.9.0');
 
     api.use('jquery', 'client');
-    api.use('momentjs:moment', 'client');
+    api.use('momentjs:moment@2.8.4', 'client');
 
     api.add_files([
       'lib/css/bootstrap3-datetimepicker.css', // Add Date Time Picker CSS and JS files
