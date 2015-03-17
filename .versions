@@ -1,5 +1,5 @@
-hypno:bootstrap3-datetimepicker@4.7.14_1
-jquery@1.11.3-rc.0_2
-meteor@1.1.5-rc.0
+jquery@1.11.3_2
+meteor@1.1.5
 momentjs:moment@2.8.4
-underscore@1.0.3-rc.0
+tsega:bootstrap3-datetimepicker@4.7.14_2
+underscore@1.0.3
