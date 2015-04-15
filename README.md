@@ -16,7 +16,7 @@ To use
 Set up your markup, in the example below a grouped calendar icon with text input (bootstrap3)
 
 ```html
-<template name="temName">
+<template name="tempName">
 ...
   <div class="input-group datetimepicker">
     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
@@ -29,7 +29,7 @@ Set up your markup, in the example below a grouped calendar icon with text input
 Using jQuery initiate the control as datetime picker after the template has been rendered.
 
 ```js
-Template.tempName.rendered = function() {
-    $('.datetimepicker').datetimepicker();
-}
+Template.tempName.onRendered(function() {
+    this.$('.datetimepicker').datetimepicker();
+});
 ```
