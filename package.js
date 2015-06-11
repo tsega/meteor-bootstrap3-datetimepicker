@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Bootstrap 3 DateTime picker from @Eonasdan, packaged for Meteor.js",
-    version: "4.7.14_4",
+    version: "4.14.30_4",
     git: "https://github.com/tsega/meteor-bootstrap3-datetimepicker"
 });
 
