@@ -19,7 +19,7 @@ Set up your markup, in the example below a grouped calendar icon with text input
 <template name="tempName">
 ...
   <div class="input-group datetimepicker">
-    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
     <input class="set-due-date form-control" type="text"/>
   </div>
 ...
